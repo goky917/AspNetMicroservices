@@ -7,13 +7,14 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY ["ApiGateways/OcelotApiGw/OcelotApiGw.csproj", "ApiGateways/OcelotApiGw/"]
+COPY ["BuildingBlocks/Common.Logging/Common.Logging.csproj", "BuildingBlocks/Common.Logging/"]
 RUN dotnet restore "ApiGateways/OcelotApiGw/OcelotApiGw.csproj"
 COPY . .
 WORKDIR "/src/ApiGateways/OcelotApiGw"
 RUN dotnet build "OcelotApiGw.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "OcelotApiGw.csproj" -c Release -o /app/publish
+RUN dotnet publish "OcelotApiGw.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
