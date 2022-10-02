@@ -28,3 +28,8 @@ LAUNCH MICROSERVICES:
 
 	NUGET PACKAGES
 		=> Install-Package Microsoft.Extensions.Http.Polly
+		=> Install-Package Polly
+		=> Install-Package AspNetCore.HealthChecks.MongoDb
+		=> Install-Package AspNetCore.HealthChecks.UI.Client
+		=> Install-Package AspNetCore.HealthChecks.Redis
+        => Install-Package AspNetCore.HealthChecks.Npgsql
