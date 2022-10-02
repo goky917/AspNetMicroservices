@@ -25,3 +25,6 @@ LAUNCH MICROSERVICES:
 	=> Kibana -> http://host.docker.internal:5601
 	=> Web Status -> http://host.docker.internal:8007
 	=> Web UI -> http://host.docker.internal:8006
+
+	NUGET PACKAGES
+		=> Install-Package Microsoft.Extensions.Http.Polly
