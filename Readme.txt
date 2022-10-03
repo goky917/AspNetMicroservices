@@ -33,3 +33,5 @@ LAUNCH MICROSERVICES:
 		=> Install-Package AspNetCore.HealthChecks.UI.Client
 		=> Install-Package AspNetCore.HealthChecks.Redis
         => Install-Package AspNetCore.HealthChecks.Npgsql
+        => Install-Package Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore
+        => Install-Package AspNetCore.HealthChecks.Uris
