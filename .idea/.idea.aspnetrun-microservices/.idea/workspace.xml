@@ -20,17 +20,7 @@
     <projectFile profileName="WebStatus">WebApps/WebStatus/WebStatus.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83123af9-59be-4261-b12e-4d857bf5b08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetrun-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetrun-microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateways/Shopping.Aggregator/Shopping.Aggregator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateways/Shopping.Aggregator/Shopping.Aggregator.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateways/Shopping.Aggregator/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateways/Shopping.Aggregator/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Ordering.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Ordering.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/AspnetRunBasics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/AspnetRunBasics.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetrun-microservices.sln" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetrun-microservices.sln" afterDir="false" />
-    </list>
+    <list default="true" id="83123af9-59be-4261-b12e-4d857bf5b08c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -330,7 +320,7 @@
       <workItem from="1664568805573" duration="52000" />
       <workItem from="1664714803603" duration="14453000" />
       <workItem from="1664740512212" duration="38000" />
-      <workItem from="1664765491831" duration="3248000" />
+      <workItem from="1664765491831" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="Polly and Circuit Breaker Patterns added.">
       <created>1664725000437</created>
@@ -346,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664740359260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Health Checks methods are refactored.">
+      <created>1664769032686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664769032686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +366,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Polly and Circuit Breaker Patterns added." />
     <MESSAGE value="Health Check is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Health Check is added." />
+    <MESSAGE value="Health Checks methods are refactored." />
+    <option name="LAST_COMMIT_MESSAGE" value="Health Checks methods are refactored." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
