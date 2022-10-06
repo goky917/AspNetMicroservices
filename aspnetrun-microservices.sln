@@ -52,6 +52,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logging", "BuildingBlocks\Common.Logging\Common.Logging.csproj", "{6C2EAEE3-0333-4507-97B8-8567355550B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStatus", "WebApps\WebStatus\WebStatus.csproj", "{0FF9F6F2-196A-446E-8A29-81F4320EB5E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +116,10 @@ Global
 		{6C2EAEE3-0333-4507-97B8-8567355550B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C2EAEE3-0333-4507-97B8-8567355550B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C2EAEE3-0333-4507-97B8-8567355550B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF9F6F2-196A-446E-8A29-81F4320EB5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF9F6F2-196A-446E-8A29-81F4320EB5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF9F6F2-196A-446E-8A29-81F4320EB5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF9F6F2-196A-446E-8A29-81F4320EB5E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +142,7 @@ Global
 		{AC81900D-22B8-4E56-B54F-330DA2D4EBC1} = {3ED21FE4-9AAF-49B3-ADC0-24C8FAD64F4F}
 		{A57A595B-CB18-4C9E-946D-3FF241402178} = {83A06FF4-6005-4F2C-AB80-C83D7ECA1BBA}
 		{6C2EAEE3-0333-4507-97B8-8567355550B4} = {E2DB7378-3EBD-4C13-9619-AE0C09547775}
+		{0FF9F6F2-196A-446E-8A29-81F4320EB5E3} = {83A06FF4-6005-4F2C-AB80-C83D7ECA1BBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29EE0EE4-99CA-40A6-A648-8E3889D6C577}
