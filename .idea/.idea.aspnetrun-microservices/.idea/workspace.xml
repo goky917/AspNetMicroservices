@@ -21,20 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83123af9-59be-4261-b12e-4d857bf5b08c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApps/WebStatus/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApps/WebStatus/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetrun-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetrun-microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateways/Shopping.Aggregator/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateways/Shopping.Aggregator/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspnetrun-microservices.sln" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetrun-microservices.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.dcproj" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.dcproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +354,8 @@
       <workItem from="1664740512212" duration="38000" />
       <workItem from="1664765491831" duration="3511000" />
       <workItem from="1664852118749" duration="3602000" />
-      <workItem from="1665082704644" duration="4413000" />
+      <workItem from="1665082704644" duration="4524000" />
+      <workItem from="1665110888031" duration="1567000" />
     </task>
     <task id="LOCAL-00001" summary="Polly and Circuit Breaker Patterns added.">
       <created>1664725000437</created>
@@ -397,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664852235783</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dockerized.">
+      <created>1665088962456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665088962456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +790,8 @@
     <MESSAGE value="Health Check is added." />
     <MESSAGE value="Health Checks methods are refactored." />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Dockerized." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerized." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
